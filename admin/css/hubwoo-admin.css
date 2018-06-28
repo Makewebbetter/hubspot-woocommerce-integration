@@ -1,0 +1,294 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.update-nag.notice-success.is-dismissible {
+    margin: 10px 5px;
+}
+ .hubwoo_plugin_title {
+  padding: 15px;
+}
+.hubwoo_oauth_span {
+  display: block;
+  margin: 10px 0;
+}
+.hubwoo{
+  margin:0px !important; 
+}
+.hubwoo-alert{
+  font-weight: bold;
+}
+span.hubwoo_oauth_span label {
+  background-color: #d9edf7 ;
+  border-left: 3px solid #0073aa ;
+  color: #31708f ;
+  display: inline-block;
+  line-height: 28px;
+  margin: -4px 0 0;
+  padding: 0 30px 0 15px;
+  position: relative;
+}
+.hubwoo_oauth_span .button-primary{
+  margin-top: 10px;
+}
+.hubwoo-main{
+  margin: 5px;
+  background-color: #b4f9f9;
+}
+span.hubwoo_oauth_span label::after {
+  border-bottom: 8px solid transparent;
+  border-left: 10px solid #0073aa ;
+  border-top: 8px solid transparent;
+  content: "";
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hubwoo-pro-now{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.hubwoo-pro-buy{
+  text-align: center;
+  font-size: 14px !important;
+  margin-bottom: 20px !important;
+  padding: 11px 20px !important;
+}
+.hubwoo .popupwrap .hubwoo-message-area {
+  max-height: 150px;
+  overflow-y: auto;
+}
+.hubwoo-pro{
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+.hubwoo-return{
+  text-align: center;
+}
+.hubwoo .popupwrap .hubwoo-message-area span {
+  display: block;
+}
+.hubwoo .popupwrap .hubwoo-message-area {
+  margin-top: 40px;
+}
+.hubwoo .popupwrap {
+  background-color: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
+  display: block;
+  left: 0;
+  opacity: 1;
+  padding: 30px;
+  position: relative;
+  right: 0;
+  height: 309px;
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hubwoo #hubwoo-setup-process {
+  background-color: rgba(0, 0, 0, 0.65);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.hubwoo .progress-bar {
+  background-color: #337ab7;
+  border-radius: 8px;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+  color: #ffffff;
+  font-size: 12px;
+  height: 100%;
+  line-height: 20px;
+  min-height: 24px;
+  text-align: center;
+  transition: width 0.6s ease 0s;
+  width: 0;
+}
+.hubwoo .popupwrap > p {
+  font-size: 19px;
+  font-weight: 600;
+  position: relative;
+}
+
+.hubwoo .progress {
+  background: #ccc none repeat scroll 0 0;
+  border-radius: 30px;
+}
+.hubwoo table.form-table tbody tr:nth-child(2n) {
+  background: #e2e2e2 none repeat scroll 0 0;
+}
+.hubwoo table.form-table tbody tr th {
+  padding-left: 10px;
+}
+.hubwoo .hubwoo-nav-tab-wrapper .nav-tab-active{
+	background: #fff;
+}
+.wrap.hubwoo{
+	background: #fff;
+	padding: 0 10px;
+}
+#hubwoo_loader.loading-style-bg img {
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px;
+}
+#hubwoo_loader.loading-style-bg {
+  background-color: rgba(0, 0, 0, 0.65);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 2147483647;
+}
+.hub_pop_up_wrap {
+  background-color: rgba(0, 0, 0, 0.55);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.hub_pop_up_wrap p {
+  color: #232323;
+  font-size: 17px;
+  text-align: center;
+}
+.hub_pop_up_wrap .pop_up_sub_wrap {
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 6px 5px rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  left: 0;
+  margin: 0 auto;
+  max-width: 450px;
+  min-height: 228px;
+  padding: 16px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hub_pop_up_wrap .pop_up_sub_wrap .button_wrap {
+  margin-top: 35px;
+  text-align: center;
+}
+.hub_pop_up_wrap .pop_up_sub_wrap .button_wrap a {
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  font-size: 17px;
+  padding: 10px;
+  text-decoration: none;
+  width: 80%;
+  margin: 0 auto 15px;
+}
+.hub_pop_up_wrap .pop_up_sub_wrap .button_wrap a:nth-child(1) {
+  background-color: #26488f;
+}
+.hub_pop_up_wrap .pop_up_sub_wrap .button_wrap a:nth-child(2) {
+  text-decoration: underline;
+  color: #252525;
+} 
+
+
+/*mycss*/
+
+.hubwoo-main-wrapper .hubwoo form {
+  border: 1px solid #bababa;
+  border-radius: 5px;
+  padding: 14px;
+}
+
+
+.hubwoo-main-wrapper{
+  margin: 0 !important;
+}
+
+.hubwoo-main-wrapper  .hubwoo-side-wrap{
+  border: 1px solid #bababa;
+  border-radius: 5px;
+  padding: 14px;
+
+}
+
+.hubwoo-main-wrapper .hubwoo-side-wrap .hubwoo-prod-ul{
+  list-style: disc;
+  padding: 12px;
+  text-align: justify;
+
+}
+.hubwoo-main-wrapper .hubwoo-side-wrap .hubwoo-addon-heading {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.hubwoo-main-wrapper .hubwoo-side-wrap .hubwoo-prod-link {
+ background-color: #ff7a59;
+ border-radius: 5px;
+ color: #fff;
+ display: inline-block;
+ font-size: 12px;
+ font-weight: bold;
+ padding: 10px 20px;
+ text-transform: uppercase;
+}
+
+.hubwoo-main-wrapper .hubwoo-side-wrap .hubwoo-prod-link:hover{
+  color: #fff !important;
+  text-decoration: none !important;
+}
+.hubwoo-main-wrapper .hubwoo-side-wrap .hubwoo-prod-link:focus {
+text-decoration:none !important;
+
+}
+
+.hubwoo-main-wrapper .hubwoo-side-wrap .hubwoo-btn-wrap {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.hubwoo-main-wrapper .hubwoo-side-wrap p{
+  font-size: 17px;
+  color: #000;
+}
+.hubwoo-main-wrapper .hubwoo-side-wrap .hubwoo-prod-name{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+}
+.hubwoo-main-wrapper .hubwoo-side-wrap .hubwoo-main-buy {
+ display: block;
+ font-size: 14px !important;
+ margin-bottom: 20px !important;
+ padding: 11px 20px !important;
+}
+.hubwoo-main-wrapper .hubwoo-side-wrap .hubwoo-main-trial {
+ display: block;
+ font-size: 14px !important;
+ padding: 11px 20px !important;
+}
+
